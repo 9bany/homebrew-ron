@@ -9,7 +9,7 @@ class Ron < Formula
     license "MIT"
   
     def install    
-        bin.install "gitstart"    
+        bin.install "ron"    
         prefix.install "README.md"
         prefix.install "LICENSE"  
     end
