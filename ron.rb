@@ -9,9 +9,7 @@ class Ron < Formula
     license "MIT"
   
     def install    
-        bin.install "ron"    
-        prefix.install "README.md"
-        prefix.install "LICENSE"  
+        bin.install "ron"
     end
   end
   
