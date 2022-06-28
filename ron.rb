@@ -6,7 +6,7 @@ class Ron < Formula
     homepage ""
     url "https://github.com/9bany/ron/releases/download/0.0.1/ron"
     sha256 "8952337daa9477940a36dd3ad35a1cae3f244a08a6f1f9fb0b8e20b9e8403dc6"
-    license ""
+    license "MIT"
   
     # depends_on "cmake" => :build
   
