@@ -15,7 +15,7 @@ class Ron < Formula
       # Remove unrecognized options if warned by configure
       # https://rubydoc.brew.sh/Formula.html#std_configure_args-instance_method
       # system "cmake", "-S", ".", "-B", "build", *std_cmake_args
-      bin.install "ron" => 'ron'
+      bin.install 'ron'
     end
 
   end
