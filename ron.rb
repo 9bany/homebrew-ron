@@ -8,15 +8,10 @@ class Ron < Formula
     sha256 "8952337daa9477940a36dd3ad35a1cae3f244a08a6f1f9fb0b8e20b9e8403dc6"
     license "MIT"
   
-    # depends_on "cmake" => :build
-  
-    def install
-      # ENV.deparallelize  # if your formula fails when building in parallel
-      # Remove unrecognized options if warned by configure
-      # https://rubydoc.brew.sh/Formula.html#std_configure_args-instance_method
-      # system "cmake", "-S", ".", "-B", "build", *std_cmake_args
-      bin.install 'ron'
+    def install    
+        bin.install "gitstart"    
+        prefix.install "README.md"
+        prefix.install "LICENSE"  
     end
-
   end
   
